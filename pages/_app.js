@@ -2,17 +2,16 @@ import Head from 'next/head';
 import { useState, useEffect } from 'react';
 import { useRouter } from 'next/router';
 import '../styles/globals.css';
-
 import { userService } from 'services';
-import { Nav, Alert } from 'components';
+import  Nav  from '../components/nav/Nav';
+import { Alert } from '../components/Alert';
 
-export default App;
 
-function App({ Component, pageProps }) {
+
+ export default function App({ Component, pageProps }) {
     const router = useRouter();
     const [user, setUser] = useState(null);
     const [authorized, setAuthorized] = useState(false);
-
 
 
     useEffect(() => {
@@ -56,7 +55,7 @@ function App({ Component, pageProps }) {
             </Head>
 
 
-            <div className={`mx-auto  ${user ? 'bg-primary' : ''}`}>
+            <div className={`mx-auto ${user ? 'bg-primary' : ''}`}>
                 <Nav />
                 <Alert />
                 {authorized &&
