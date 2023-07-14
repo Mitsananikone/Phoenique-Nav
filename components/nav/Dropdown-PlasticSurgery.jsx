@@ -17,22 +17,22 @@ export default function DropdownPlasticSurgery() {
 const renderBreastDropdown = () => (
   <ul className="bg-white border rounded-sm absolute top-0 right-0 transition duration-150 ease-in-out origin-top-left w-56">
     <li className="px-3 py-1 hover:bg-gray-100">
-      <NavLink href="/breast/augmentation">Breast Augmentation</NavLink>
+      <NavLink href="/plasticsurgery/breast/augmentation">Breast Augmentation</NavLink>
     </li>
     <li className="px-3 py-1 hover:bg-gray-100">
-      <NavLink href="/breast/lift">Breast Lift</NavLink>
+      <NavLink href="/plasticsurgery/breast/lift">Breast Lift</NavLink>
     </li>
     <li className="px-3 py-1 hover:bg-gray-100">
-      <NavLink href="/breast/reduction">Breast Reduction</NavLink>
+      <NavLink href="/plasticsurgery/breast/reduction">Breast Reduction</NavLink>
     </li>
     <li className="px-3 py-1 hover:bg-gray-100">
-      <NavLink href="/breast/revision">Breast Revision</NavLink>
+      <NavLink href="/plasticsurgery/breast/revision">Breast Revision</NavLink>
     </li>
     <li className="px-3 py-1 hover:bg-gray-100">
-      <NavLink href="/breast/explant">Breast Explant</NavLink>
+      <NavLink href="/plasticsurgery/breast/explant">Breast Explant</NavLink>
     </li>
     <li className="px-3 py-1 hover:bg-gray-100">
-      <NavLink href="/breast/male-breast-reduction">Male Breast Reduction</NavLink>
+      <NavLink href="/plasticsurgery/breast/malebreastreduction">Male Breast Reduction</NavLink>
     </li>
   </ul>
 );
@@ -40,22 +40,22 @@ const renderBreastDropdown = () => (
 const renderBodyDropdown = () => (
   <ul className="bg-white border rounded-sm absolute top-0 right-0 transition duration-150 ease-in-out origin-top-left w-50">
     <li className="px-3 py-1 hover:bg-gray-100">
-      <NavLink href="/body/mummy-makeover">Mummy Makeover</NavLink>
+      <NavLink href="/plasticsurgery/body/mummymakeover">Mummy Makeover</NavLink>
     </li>
     <li className="px-3 py-1 hover:bg-gray-100">
-      <NavLink href="/body/tummy-tuck">Tummy Tuck</NavLink>
+      <NavLink href="/plasticsurgery/body/tummytuck">Tummy Tuck</NavLink>
     </li>
     <li className="px-3 py-1 hover:bg-gray-100">
-      <NavLink href="/body/labiaplasty">Labiaplasty</NavLink>
+      <NavLink href="/plasticsurgery/body/labiaplasty">Labiaplasty</NavLink>
     </li>
     <li className="px-3 py-1 hover:bg-gray-100">
-      <NavLink href="/body/arm-lift">Arm Lift</NavLink>
+      <NavLink href="/plasticsurgery/body/armlift">Arm Lift</NavLink>
     </li>
     <li className="px-3 py-1 hover:bg-gray-100">
-      <NavLink href="/body/thigh-lift">Thigh Lift</NavLink>
+      <NavLink href="/plasticsurgery/body/thighlift">Thigh Lift</NavLink>
     </li>
     <li className="px-3 py-1 hover:bg-gray-100">
-      <NavLink href="/body/weight-loss-surgery">Weight Loss Surgery</NavLink>
+      <NavLink href="/plasticsurgery/body/weight-loss-surgery">Weight Loss Surgery</NavLink>
     </li>
   </ul>
 );
@@ -63,16 +63,16 @@ const renderBodyDropdown = () => (
 const renderFaceDropdown = () => (
   <ul className="bg-white border rounded-sm absolute top-0 right-0 transition duration-150 ease-in-out origin-top-left w-56">
     <li className="px-3 py-1 hover:bg-gray-100">
-      <NavLink href="/face/rhinoplasty">Rhinoplasty</NavLink>
+      <NavLink href="/plasticsurgery/face/rhinoplasty">Rhinoplasty</NavLink>
     </li>
     <li className="px-3 py-1 hover:bg-gray-100">
-      <NavLink href="/face/facelift">Facelift</NavLink>
+      <NavLink href="/plasticsurgery/face/facelift">Facelift</NavLink>
     </li>
     <li className="px-3 py-1 hover:bg-gray-100">
-      <NavLink href="/face/eyelid-lift">Eyelid Lift</NavLink>
+      <NavLink href="/plasticsurgery/face/eyelid-lift">Eyelid Lift</NavLink>
     </li>
     <li className="px-3 py-1 hover:bg-gray-100">
-      <NavLink href="/face/ear-pinning">Ear Pinning</NavLink>
+      <NavLink href="/plasticsurgery/face/ear-pinning">Ear Pinning</NavLink>
     </li>
   </ul>
 );

@@ -18,10 +18,10 @@ export default function DropDownSurgeons() {
   const renderAboutDropdown = () => (
     <ul className="bg-white border rounded-sm absolute top-0 right-0 transition duration-150 ease-in-out origin-top-left w-50">
       <li className="px-3 py-1 hover:bg-gray-100">
-        <NavLink href="/about/about-us">Our Surgeons</NavLink>
+        <NavLink href="/surgeons/our-surgeons">Our Surgeons</NavLink>
       </li>
       <li className="px-3 py-1 hover:bg-gray-100">
-        <NavLink href="/about/travel">Our Hospitals</NavLink>
+        <NavLink href="/about/our-hospitals">Our Hospitals</NavLink>
       </li>
     </ul>
   );
@@ -45,14 +45,14 @@ export default function DropDownSurgeons() {
         <ul className="bg-white border rounded-sm transform scale-0 group-hover:scale-100 absolute transition duration-150 ease-in-out origin-top w-40">
           <li className="rounded-sm relative px-5 py-1 hover:bg-gray-100">
             <button className="w-full text-left flex items-center outline-none focus:outline-none">
-              <span className="pr-1 flex-1">Our Surgeons</span>
+            <NavLink href="/surgeons/our-surgeons">Our Surgeons</NavLink>
               <span className="mr-auto">
               </span>
             </button>
           </li>
           <li className="rounded-sm relative px-5 py-1 hover:bg-gray-100">
             <button className="w-full text-left flex items-center outline-none focus:outline-none">
-              <span className="pr-1 flex-1">Our Hospitals</span>
+            <NavLink href="/surgeons/our-hospitals">Our Hospitals</NavLink>
               <span className="mr-auto">
               </span>
             </button>

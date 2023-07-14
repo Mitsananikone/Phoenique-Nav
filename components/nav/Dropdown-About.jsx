@@ -1,8 +1,8 @@
+/** @format */
+
 import { useState, useEffect } from "react";
-import  NavLink  from "./NavLink";
+import NavLink from "./NavLink";
 import { userService } from "services";
-
-
 
 export default function DropDownAbout() {
   const [user, setUser] = useState(null);
@@ -15,10 +15,9 @@ export default function DropDownAbout() {
   // only show nav when logged in
   if (!user) return null;
 
-
   return (
     <div>
-       <div className="group inline-block">
+      <div className="group inline-block">
         <button className="outline-none focus:outline-none border px-3 py-1 bg-white rounded-sm flex items-center w-40">
           <span className="pr-1 font-semibold flex-1">About</span>
           <span>
@@ -34,20 +33,13 @@ export default function DropDownAbout() {
 
         <ul className="bg-white border rounded-sm transform scale-0 group-hover:scale-100 absolute transition duration-150 ease-in-out origin-top w-40">
           <li className="rounded-sm relative px-5 py-1 hover:bg-gray-100">
-            <button className="w-full text-left flex items-center outline-none focus:outline-none">
-              <span className="pr-1 flex-1">About Us</span>
-              
-            </button>
-    
+            <NavLink href="/about/about-us">About Us </NavLink>
           </li>
           <li className="rounded-sm relative px-5 py-1 hover:bg-gray-100">
-            <button className="w-full text-left flex items-center outline-none focus:outline-none">
-              <span className="pr-1 flex-1">Travel</span>
-             
-            </button>
+            <NavLink href="/about/travel">About Us </NavLink>
           </li>
-          </ul>
-          </div>
+        </ul>
+      </div>
 
       <style>
         {`

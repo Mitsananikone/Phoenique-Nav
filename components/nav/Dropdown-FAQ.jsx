@@ -17,52 +17,52 @@ export default function DropdownFAQ() {
 const renderBreastSurgeryDropdown = () => (
   <ul className="bg-white border rounded-sm absolute top-0 right-0 transition duration-150 ease-in-out origin-top-left w-56">
     <li className="px-3 py-1 hover:bg-gray-100">
-      <NavLink href="/breast/augmentation">Breast Augmentation FAQ</NavLink>
+      <NavLink href="/faq/surgery/breast-augmentation-faq">Breast Augmentation FAQ</NavLink>
     </li>
     <li className="px-3 py-1 hover:bg-gray-100">
-      <NavLink href="/breast/lift">Breast Lift FAQ</NavLink>
+      <NavLink href="/faq/surgery/breast-lift-faq">Breast Lift FAQ</NavLink>
     </li>
     <li className="px-3 py-1 hover:bg-gray-100">
-      <NavLink href="/breast/reduction">Breast Reduction FAQ</NavLink>
+      <NavLink href="/faq/surgery/breast-reduction-faq">Breast Reduction FAQ</NavLink>
     </li>
     <li className="px-3 py-1 hover:bg-gray-100">
-      <NavLink href="/breast/revision">Breast Revision FAQ</NavLink>
+      <NavLink href="/faq/surgery/breast-revision-faq">Breast Revision FAQ</NavLink>
     </li>
     <li className="px-3 py-1 hover:bg-gray-100">
-      <NavLink href="/breast/explant">Breast Explant FAQ</NavLink>
+      <NavLink href="/faq/surgery/breast-explant-faq">Breast Explant FAQ</NavLink>
     </li>
     <li className="px-3 py-1 hover:bg-gray-100">
-      <NavLink href="/breast/male-breast-reduction">Male Breast Reduction FAQ</NavLink>
+      <NavLink href="/faq/surgery/breast-male-faq">Male Breast Reduction FAQ</NavLink>
     </li>
     <li className="px-3 py-1 hover:bg-gray-100">
-      <NavLink href="/body/mummy-makeover">Mummy Makeover FAQ</NavLink>
+      <NavLink href="/faq/surgery/body-mummy-faq">Mummy Makeover FAQ</NavLink>
     </li>
     <li className="px-3 py-1 hover:bg-gray-100">
-      <NavLink href="/body/tummy-tuck">Tummy Tuck FAQ</NavLink>
+      <NavLink href="/faq/surgery/body-tummy-faq">Tummy Tuck FAQ</NavLink>
     </li>
     <li className="px-3 py-1 hover:bg-gray-100">
-      <NavLink href="/body/labiaplasty">Labiaplasty FAQ</NavLink>
+      <NavLink href="/faq/surgery/body-labiaplasty-faq">Labiaplasty FAQ</NavLink>
     </li>
     <li className="px-3 py-1 hover:bg-gray-100">
-      <NavLink href="/body/arm-lift">Arm Lift FAQ</NavLink>
+      <NavLink href="/faq/surgery/body-armlift-faq">Arm Lift FAQ</NavLink>
     </li>
     <li className="px-3 py-1 hover:bg-gray-100">
-      <NavLink href="/body/thigh-lift">Thigh Lift FAQ</NavLink>
+      <NavLink href="/faq/surgery/body-thighlift-faq">Thigh Lift FAQ</NavLink>
     </li>
     <li className="px-3 py-1 hover:bg-gray-100">
-      <NavLink href="/body/weight-loss-surgery">Weight Loss Surgery FAQ</NavLink>
+      <NavLink href="/faq/surgery/body-weightloss-faq">Weight Loss Surgery FAQ</NavLink>
     </li>
     <li className="px-3 py-1 hover:bg-gray-100">
-      <NavLink href="/face/rhinoplasty">Rhinoplasty FAQ</NavLink>
+      <NavLink href="/faq/surgery/face-rhinoplasty-faq">Rhinoplasty FAQ</NavLink>
     </li>
     <li className="px-3 py-1 hover:bg-gray-100">
-      <NavLink href="/face/facelift">Facelift FAQ</NavLink>
+      <NavLink href="/faq/surgery/face-facelift-faq">Facelift FAQ</NavLink>
     </li>
     <li className="px-3 py-1 hover:bg-gray-100">
-      <NavLink href="/face/eyelid-lift">Eyelid Lift FAQ</NavLink>
+      <NavLink href="/faq/surgery/face-eyelidlift-faq">Eyelid Lift FAQ</NavLink>
     </li>
     <li className="px-3 py-1 hover:bg-gray-100">
-      <NavLink href="/face/ear-pinning">Ear Pinning FAQ</NavLink>
+      <NavLink href="/faq/surgery/face-earpinning-faq">Ear Pinning FAQ</NavLink>
     </li>
 
   </ul>
@@ -102,30 +102,20 @@ const renderBreastSurgeryDropdown = () => (
             {renderBreastSurgeryDropdown()}
           </li>
           <li className="rounded-sm relative px-5 py-1 hover:bg-gray-100">
-            <button className="w-full text-left flex items-center outline-none focus:outline-none">
-              <span className="pr-1 flex-1">Surgeons FAQ</span>
-            </button>
-        </li>
-        <li className="rounded-sm relative px-5 py-1 hover:bg-gray-100">
-            <button className="w-full text-left flex items-center outline-none focus:outline-none">
-              <span className="pr-1 flex-1">Hospital FAQ</span>
-            </button>
-        </li>
-        <li className="rounded-sm relative px-5 py-1 hover:bg-gray-100">
-            <button className="w-full text-left flex items-center outline-none focus:outline-none">
-              <span className="pr-1 flex-1">Recovery FAQ</span>
-            </button>
-        </li>
-        <li className="rounded-sm relative px-5 py-1 hover:bg-gray-100">
-            <button className="w-full text-left flex items-center outline-none focus:outline-none">
-              <span className="pr-1 flex-1">Accomodation FAQ</span>
-            </button>
-        </li>
-        <li className="rounded-sm relative px-5 py-1 hover:bg-gray-100">
-            <button className="w-full text-left flex items-center outline-none focus:outline-none">
-              <span className="pr-1 flex-1">Travel FAQ</span>
-            </button>
-        </li>
+            <NavLink href="/faq/surgeons-faq/page">Surgeon FAQ </NavLink>
+          </li>
+          <li className="rounded-sm relative px-5 py-1 hover:bg-gray-100">
+            <NavLink href="/faq/hospitals-faq/page">Hospital FAQ </NavLink>
+          </li>
+          <li className="rounded-sm relative px-5 py-1 hover:bg-gray-100">
+            <NavLink href="/faq/recovery-faq/page">Recovery FAQ </NavLink>
+          </li>
+          <li className="rounded-sm relative px-5 py-1 hover:bg-gray-100">
+            <NavLink href="/faq/accomodations-faq/page">Accomodations FAQ </NavLink>
+          </li>
+          <li className="rounded-sm relative px-5 py-1 hover:bg-gray-100">
+            <NavLink href="/faq/travel-faq/page">Travel FAQ </NavLink>
+          </li>
          
         </ul>
       </div>

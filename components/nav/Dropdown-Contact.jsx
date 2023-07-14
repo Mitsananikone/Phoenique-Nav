@@ -34,17 +34,25 @@ export default function DropDownContact() {
         <ul className="bg-white border rounded-sm transform scale-0 group-hover:scale-100 absolute transition duration-150 ease-in-out origin-top w-40">
           <li className="rounded-sm relative px-5 py-1 hover:bg-gray-100">
             <button className="w-full text-left flex items-center outline-none focus:outline-none">
-              <span className="pr-1 flex-1">Enquire & Quote</span>
+              <li className="px-3 py-1 hover:bg-gray-100">
+                <NavLink href="/contact/quote">Enquire & Quote</NavLink>
+              </li>
             </button>
           </li>
           <li className="rounded-sm relative px-5 py-1 hover:bg-gray-100">
             <button className="w-full text-left flex items-center outline-none focus:outline-none">
-              <span className="pr-1 flex-1">Free Assessment</span>
+              <li className="px-3 py-1 hover:bg-gray-100">
+                <NavLink href="/contact/assessment">Free Assessment</NavLink>
+              </li>
             </button>
           </li>
           <li className="rounded-sm relative px-5 py-1 hover:bg-gray-100">
             <button className="w-full text-left flex items-center outline-none focus:outline-none">
-              <span className="pr-1 flex-1">Book Consultation</span>
+              <li className="px-3 py-1 hover:bg-gray-100">
+                <NavLink href="/contact/consultation">
+                  Book Consultation
+                </NavLink>
+              </li>
             </button>
           </li>
         </ul>
