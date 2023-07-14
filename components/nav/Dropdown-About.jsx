@@ -17,7 +17,7 @@ export default function DropDownAbout() {
 
   return (
     <div>
-      <div className="group inline-block">
+      <div className="group inline-block " >
         <button className="outline-none focus:outline-none border px-3 py-1 bg-white rounded-sm flex items-center w-40">
           <span className="pr-1 font-semibold flex-1">About</span>
           <span>
